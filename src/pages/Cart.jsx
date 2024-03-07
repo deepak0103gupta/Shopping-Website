@@ -15,7 +15,7 @@ function Cart() {
         <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-center">
             {
                 cart.length > 0 ?
-                (<div className="flex flex-row w-[100%]">
+                (<div className="flex flex-col md:flex-row w-[100%]">
                     <div>
                     {
                       cart.map((item,index) => {
