@@ -17,7 +17,7 @@ function Product({post}) {
         toast.error("Item Removed from cart");
     }
     return( 
-        <div className="flex flex-col items-center justify-between hover:scale-110 transition duration-300 ease-in gap-3 p-4 mt-10 ml-5 rounded outline">
+        <div className=" flex flex-col items-center justify-between hover:scale-110 transition duration-300 ease-in gap-3 p-4 mt-10 ml-5 rounded  shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
             <div>
                 <p className="text-gray-700 font-semibold text-lg text-left truncate w-40 mt-1">{post.title.split().slice()}</p>
             </div>
